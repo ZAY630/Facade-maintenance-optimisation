@@ -3,6 +3,20 @@
 The file is coded in MATLAB and The code is produced based on an open source NGSA-II algorithm developed by Mostapha Kalami Heris, 2015. 
 Based on the theory of gene mutation and crossover, crowding distance and non-dominant sorting, the algorithm is modified to suit the purpose of facade manitenance optimisation.
 
+
+Open source reference and information:
+
+Project Code: YPEA120
+
+Project Title: Non-dominated Sorting Genetic Algorithm II (NSGA-II)
+
+Publisher: Yarpiz (www.yarpiz.com)
+
+Developer: Mostapha Kalami Heris (Member of Yarpiz Team)
+
+Reference: Mostapha Kalami Heris, NSGA-II in MATLAB (URL: https://yarpiz.com/56/ypea120-nsga2), Yarpiz, 2015.
+
+
 nsga2.m: This is the main file for the multi-objective optimisation operation. 
 
 CalcCrowdingDistance.m, Crossover.m, Dominates.m, Mutate.m, NonDominatedSorting.m, SortPopulation.m: Those files are the main process of the genetic algorithm.
